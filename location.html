@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Summer Holiday</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <a href="/" class="header__top-logo-link">
+                <img
+                  src="./assets/images/logo.jpg"
+                  alt=""
+                  class="header__top-logo"
+              /></a>
+            </div>
+
+            <label
+              for="mobile-input"
+              class="header__top-bar header__top-button-link"
+              ><i class="btn-bar fas fa-bars"></i
+            ></label>
+
+            <input
+              type="checkbox"
+              hidden
+              name=""
+              class="nav__mobile-input"
+              id="mobile-input"
+            />
+            <div class="col-8 header__top-nav menu__mobile-top">
+              <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                  <li class="header__navbar-item">
+                    <a href="/index.html" class="header__navbar-link">Home</a>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/infomation.html" class="header__navbar-link"
+                      >About</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/infomation.html"
+                          >Infomation</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/term.html"
+                          >Terms and Service</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/location.html" class="header__navbar-link"
+                      >Destinations</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations List</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Slider</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Item</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/address.html" class="header__navbar-link"
+                      >Address</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address company</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Social media</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address branch</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link">Blog</a>
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog mansonry</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog standard</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Post Type</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/accout.html" class="header__navbar-link"
+                      >Accout</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/login.html"
+                          >Log in</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/accout.html"
+                          >Registration</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item header__navbar-item--EL">
+                    <a href="" class="header__navbar-link">Elements</a>
+                    <ul class="subnav subnavE">
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 1</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Accordions & Toggle</a
+                            >
+                          </li>
+                          <li><a class="subnavE-link" href="">Box Icon</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Images</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Large Image</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Buttons</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Call to action</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 2</span>
+                        <ul class="textEG1">
+                          <li><a class="subnavE-link" href="">Counter</a></li>
+                          <li><a class="subnavE-link" href="">Dividers</a></li>
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Flexible image slider</a
+                            >
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Google map</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Graditon</a></li>
+                          <li><a class="subnavE-link" href="">Instagram</a></li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 3</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Popup Video</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Pricing Box</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Progess Bar</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Proges Cricle</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Rows & Columm</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Social Networks</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 4</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Testimonial</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Timeline</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Carousel Slider</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Typed Text</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-2">
+              <div class="header__top-button">
+                <a href="" class="header__top-search header__top-button-link">
+                  <i class="fas fa-search"></i
+                ></a>
+                <a href="" class="header__top-cart header__top-button-link">
+                  <i class="fas fa-luggage-cart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrap__loca-banner">
+          <img
+            src="./assets/images/Inkedbannerloca_LI.jpg"
+            alt="banner"
+            class="loca__banner-img"
+          />
+        </div>
+        <div class="wrap__loca-welcome">
+          <div class="loca__welcome-text">
+            <h3 class="loca__welcome-heading">Chào mừng đến với DLONG!</h3>
+            <p class="loca__welcome-text">
+              Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa
+              trên DLONG .
+            </p>
+            <p class="loca__welcome-text">
+              Hãy đồng hành với chúng tôi để có những phút giây thư giãn nhất!
+            </p>
+          </div>
+          <div class="loca__welcome-card">
+            <ul class="loca__welcome-list">
+              <li class="loca__welcome-item">
+                <a href="#" class="loca__welcome-link">
+                  <div class="loca__welcome-choice">
+                    <img
+                      src="/assets/images/imgchoice.png"
+                      alt="homestay"
+                      class="loca__welcome-choice--img"
+                    />
+                    <div class="loca__welcome-choice--text">
+                      <p class="loca__welcome-choice--name">Homestay</p>
+                      <p class="loca__welcome-choice--modify">
+                        Căn hộ dịch vụ & Biệt thự.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="loca__welcome-item">
+                <a href="#" class="loca__welcome-link">
+                  <div class="loca__welcome-choice">
+                    <img
+                      src="/assets/images/imgchoice2.jpg"
+                      alt="homestay"
+                      class="loca__welcome-choice--img"
+                    />
+                    <div class="loca__welcome-choice--text">
+                      <p class="loca__welcome-choice--name">Vé tham quan</p>
+                      <p class="loca__welcome-choice--modify">
+                        Mua vé thật dễ dàng.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrap__loca-city" id="location-city">
+          <div class="loca__city-header">
+            <h3 class="loca__city-heading">Địa điểm nổi bật</h3>
+            <p class="loca__city-mess">
+              Cùng DLONG chinh phục thế giới của bạn.
+            </p>
+          </div>
+        </div>
+        
+          <div class="loca__city-content">
+            <ul class="loca__city-list">
+              <li class="loca__city-item">
+                <div class="loca__city-info">
+                  <a href="">
+                    <img
+                      src="./assets/images/hanoi.png"
+                      alt="hanoi"
+                      class="loca__city-img"
+                    />
+                    <div class="loca__city-text">
+                      <h4 class="loca__city-name">Hà Nội</h4>
+                      <p class="loca__city-modify">2913 Chỗ ở</p>
+                    </div></a
+                  >
+                </div>
+              </li>
+              <li class="loca__city-item">
+                <div class="loca__city-info">
+                  <a href="">
+                    <img
+                      src="./assets/images/hochiminhcity.png"
+                      alt="hanoi"
+                      class="loca__city-img"
+                    />
+                    <div class="loca__city-text">
+                      <h4 class="loca__city-name">Tp Hồ Chí Minh</h4>
+                      <p class="loca__city-modify">2366 Chỗ ở</p>
+                    </div></a
+                  >
+                </div>
+              </li>
+              <li class="loca__city-item">
+                <div class="loca__city-info">
+                  <a href="">
+                    <img
+                      src="./assets/images/vungtaucity.png"
+                      alt="hanoi"
+                      class="loca__city-img"
+                    />
+                    <div class="loca__city-text">
+                      <h4 class="loca__city-name">Vũng Tàu</h4>
+                      <p class="loca__city-modify">533 Chỗ ở</p>
+                    </div></a
+                  >
+                </div>
+              </li>
+              <li class="loca__city-item">
+                <div class="loca__city-info">
+                  <a href="">
+                    <img
+                      src="./assets/images/dalatcity.png"
+                      alt="hanoi"
+                      class="loca__city-img"
+                    />
+                    <div class="loca__city-text">
+                      <h4 class="loca__city-name">Đà Lạt</h4>
+                      <p class="loca__city-modify">1471 Chỗ ở</p>
+                    </div></a
+                  >
+                </div>
+              </li>
+              <li class="loca__city-item">
+                <div class="loca__city-info">
+                  <a href="">
+                    <img
+                      src="./assets/images/danangcity.png"
+                      alt="hanoi"
+                      class="loca__city-img"
+                    />
+                    <div class="loca__city-text">
+                      <h4 class="loca__city-name">Đà Nẵng</h4>
+                      <p class="loca__city-modify">904 Chỗ ở</p>
+                    </div></a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <wrap>
+      
+    <div class="wrap__loca-villa">
+      <div class="container">
+        <div class="wrap__loca-city">
+          <div class="loca__city-header">
+            <h3 class="loca__city-heading">Gợi ý từ chúng tôi.</h3>
+            <p class="loca__city-mess">
+              Những địa điểm thường đến mà DLONG gợi ý dành cho bạn
+            </p>
+          </div>
+        </div>
+          <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <a href="">
+            <div class="loca__villa">
+              <img src="./assets/images/bietthuvungtau.jpg" alt="vungtau villa" class="loca__villa-img">
+              
+              <div class="loca__villa-text">
+                <p class="loca__villa-header">Vũng tàu biệt thự hồ bơi.</p>
+                <p class="loca__villa-modify">Những căn biệt thự có hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu.</p>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <a href="">
+            <div class="loca__villa">
+              <img src="./assets/images/bietthuhanoi1.jpg" alt="vungtau villa" class="loca__villa-img">
+              
+              <div class="loca__villa-text">
+                <p class="loca__villa-header">Vi vu ngoại thành thành phố.</p>
+                <p class="loca__villa-modify">Trải nghiệm không gian thoáng đãng cho chuyến đi ngay gần Hà Nội.</p>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <a href="">
+            <div class="loca__villa">
+              <img src="./assets/images/bietthuhanoi2.jpg" alt="vungtau villa" class="loca__villa-img">
+              
+              <div class="loca__villa-text">
+                <p class="loca__villa-header">Hà Nội nội thành lãng mạn.</p>
+                <p class="loca__villa-modify">Không gian lãng mạn cho các cặp đôi tại trung tâm Hà Nội.</p>
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <a href="">
+            <div class="loca__villa">
+              <img src="./assets/images/bietthusaigon.jpg" alt="vungtau villa" class="loca__villa-img">
+              
+              <div class="loca__villa-text">
+                <p class="loca__villa-header">Sài Gòn cần là có ngay.</p>
+                <p class="loca__villa-modify">Những căn homestay có 01 phòng ngủ tại Sài Gòn để đặt nhanh chóng.</p>
+              </div>
+            </div></a>
+          </div>
+        </div>
+        <div class="wrap__loca-city">
+          <div class="loca__city-header">
+            <h3 class="loca__city-heading">Ưu đãi độc quyền.</h3>
+            <p class="loca__city-mess">
+              Chỉ có tại DLONG, hấp dẫn và hữu hạn, book ngay!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./assets/images/event_1.jpg" alt="uu dai" class="loca__endow">
+          </div>
+          <div class="col-lg-4">
+            <img src="./assets/images/even_2edit.jpg" alt="uu dai" class="loca__endow">
+          </div>
+          <div class="col-lg-4">
+            <img src="./assets/images/even_3-edit.jpg" alt="uu dai" class="loca__endow">
+          </div>
+        </div>
+      </div>
+    </div>
+    </wrap>
+    <footer id="footer">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum1">
+                <ul class="footer__colum1-list">
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <div class="footer__colum1-img">
+                        <img
+                          class="footer__colum1-logo"
+                          src="./assets/images/logo.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </a>
+                    <p class="footer__colum1-subtitle">
+                      Công ty Dương Long hân hạnh đồng hành cùng quý khách.
+                    </p>
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon far fa-envelope"></i
+                      >longlonglong1911@gmail.com</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-phone-alt"></i>0366
+                      369 782</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-map-marker-alt"></i
+                      >Kim Thanh, Hai Duong</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum2">
+                <h4 class="footer__colum-heading">Our Recent Posts</h4>
+                <ul class="footer__colum2-list">
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum3">
+                <h4 class="footer__colum-heading">
+                  Subscribe to our Newsletter
+                </h4>
+                <p class="footer__colum3-text">
+                  Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
+                </p>
+                <div class="footer__form">
+                  <div class="footer-form-include">
+                    <input
+                      type="text"
+                      class="footer-form-name"
+                      placeholder="Name"
+                    />
+                    <i class="footer__form-icon fas fa-user"></i>
+                  </div>
+                  <div class="footer-form-include">
+                    <input
+                      type="email"
+                      class="footer-form-name"
+                      placeholder="Email"
+                    />
+                    <i class="footer__form-icon fas fa-envelope"></i>
+                  </div>
+                  <div class="footer__form-btn">
+                    <a href="" class="form-button">SUBCRIBE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum4">
+                <div class="footer__colum4-header">
+                  <h4 class="footer__colum-heading">Rank & Voting</h4>
+                </div>
+                <span class="footer__voting"
+                  >1<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 60%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >2<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 3%"
+                    aria-valuenow="20"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >3<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 10%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >4<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    role="progressbar"
+                    style="width: 15%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >5<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 30%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="footer__coppyright">
+              <p class="footer__coppyright-text">© 2021 Copyright by Loki</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+</html>

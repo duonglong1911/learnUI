@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Summer Holiday</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <a href="/" class="header__top-logo-link">
+                <img
+                  src="./assets/images/logo.jpg"
+                  alt=""
+                  class="header__top-logo"
+              /></a>
+            </div>
+
+            <label
+              for="mobile-input"
+              class="header__top-bar header__top-button-link"
+              ><i class="btn-bar fas fa-bars"></i
+            ></label>
+
+            <input
+              type="checkbox"
+              hidden
+              name=""
+              class="nav__mobile-input"
+              id="mobile-input"
+            />
+            <div class="col-8 header__top-nav menu__mobile-top">
+              <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                  <li class="header__navbar-item">
+                    <a href="/index.html" class="header__navbar-link">Home</a>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/infomation.html" class="header__navbar-link"
+                      >About</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/infomation.html"
+                          >Infomation</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/term.html"
+                          >Terms and Service</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/location.html" class="header__navbar-link"
+                      >Destinations</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations List</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Slider</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Item</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/address.html" class="header__navbar-link"
+                      >Address</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address company</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Social media</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address branch</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link">Blog</a>
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog mansonry</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog standard</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Post Type</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/accout.html" class="header__navbar-link"
+                      >Accout</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/login.html"
+                          >Log in</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/accout.html"
+                          >Registration</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item header__navbar-item--EL">
+                    <a href="" class="header__navbar-link">Elements</a>
+                    <ul class="subnav subnavE">
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 1</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Accordions & Toggle</a
+                            >
+                          </li>
+                          <li><a class="subnavE-link" href="">Box Icon</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Images</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Large Image</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Buttons</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Call to action</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 2</span>
+                        <ul class="textEG1">
+                          <li><a class="subnavE-link" href="">Counter</a></li>
+                          <li><a class="subnavE-link" href="">Dividers</a></li>
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Flexible image slider</a
+                            >
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Google map</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Graditon</a></li>
+                          <li><a class="subnavE-link" href="">Instagram</a></li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 3</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Popup Video</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Pricing Box</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Progess Bar</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Proges Cricle</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Rows & Columm</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Social Networks</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 4</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Testimonial</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Timeline</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Carousel Slider</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Typed Text</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-2">
+              <div class="header__top-button">
+                <a href="" class="header__top-search header__top-button-link">
+                  <i class="fas fa-search"></i
+                ></a>
+                <a href="" class="header__top-cart header__top-button-link">
+                  <i class="fas fa-luggage-cart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrap-term">
+          <div class="wrap-term__header">
+            <h1 class="wrap-term__header-heading">Điều Khoảng Hoạt Động</h1>
+          </div>
+          <div class="wrap-term__content">
+            <h3 class="wrap-term__content-heading">GIỚI THIỆU</h3>
+            <p class="wrap-term__content-text">
+              Chào mừng bạn đến với hệ thống DLONG (từ đây được gọi bằng
+              "Trang Web", “Website”). Mục đích chính và duy nhất của website
+              này là cung cấp sàn giao dịch thương mại điện tử trực tuyến nhằm
+              cung cấp thông tin của chỗ ở cho dịch vụ cho thuê lưu trú du lịch
+              ngắn hạn cho những người đang tìm kiếm để thuê những nơi như vậy
+              (gọi chung là "Dịch vụ"). Các cụm từ "chúng tôi", "của chúng tôi,"
+              và "DLONG" được sử dụng dưới đây sẽ được sử dụng đại diện cho
+              DLONG Inc, trong khi thuật ngữ "bạn" đề cập đến những khách hàng
+              đang truy cập, đã truy cập và sử dụng thông tin từ Website. Các tổ
+              chức, hay cá nhân đã, đang và sẽ tham gia giao dịch trên sàn giao
+              dịch thương mại điện tử DLONG, sẽ sẵn sàng tham gia giao dịch
+              với một thái độ tôn trọng quyền và lợi ích của nhau, một cách hợp
+              pháp nhờ có các hợp đồng và không trái với các quy định của pháp
+              luật. Chúng tôi cung cấp thông tin trong các bài đăng trên Website
+              với mục đích hỗ trợ kết nối thực hiện mong muốn thuê chỗ ở của
+              Khách Hàng và Chủ Nhà. Các thông tin đã được đăng trên DLONG.com
+              cần phải được tuân thủ theo tất cả các luật áp dụng (nếu có),
+              không đăng những thông tin hoặc sản phẩm bị cấm bởi pháp luật.
+              Chúng tôi cũng hoạt động như một kênh giao tiếp giữa Chủ Nhà và
+              Khách hàng để có thể giải quyết bất kỳ tranh chấp nào giữa hai
+              bên. Việc sử dụng Website và dịch vụ trên đó cần phải được thực
+              hiện một cách công khai và minh bạch để đảm bảo quyền lợi và sự an
+              toàn của các bên. Các bên chịu trách nhiệm cho tất cả các chi phí
+              liên quan với việc sử dụng Website hoặc Dịch vụ (nếu có).
+            </p>
+          </div>
+
+          <div class="wrap-term__content">
+            <h3 class="wrap-term__content-heading">TÀI CHÍNH</h3>
+            <p class="wrap-term__content-text">
+              Người dùng - những người truy cập vào trang DLONG.com và/hoặc
+              ứng dụng di động tương ứng (nếu có). Thành Viên - người dùng đã
+              đăng ký tài khoản cá nhân trên trang web. Khách hàng - những thành
+              viên đã sử dụng/hoặc có ý định sử dụng dịch vụ. Chỗ ở - Các ngôi
+              nhà, chỗ ở (tất cả các loại bất động sản nói chung) đã ký chấp
+              thuận điều khoản và điều kiện của DLONG và đồng ý cung cấp thông
+              tin cho chúng tôi để đăng tin trên trang DLONG.com.
+            </p>
+          </div>
+          <div class="wrap-term__content">
+            <h3 class="wrap-term__content-heading">QUY TRÌNH GIAO DỊCH</h3>
+            <p class="wrap-term__content-text">
+              Khi các thành viên, người sử dụng và khách hàng muốn thuê bất kỳ
+              một chỗ ở nào đó được đăng trên trang web, có một vài lưu ý bạn
+              cần phải làm theo như sau: Tìm kiếm những chỗ ở phù hợp nhất được
+              đăng trên trang web sau đó cẩn thận đưa ra quyết định cuối cùng.
+              Sau khi tìm thấy một nơi thích hợp, bạn có thể đặt phòng trực tiếp
+              trên DLONG.com hoặc gọi điện cho bộ phận chăm sóc khách hàng để
+              đặt qua điện thoại. Thông tin được ghi ở trên Website. Sau khi
+              hoàn tất quá trình đặt phòng, bạn sẽ phải hoàn thành thủ tục thanh
+              toán trong vòng 24 giờ kể từ thời điểm bạn nhận được email xác
+              nhận đặt phòng của DLONG. Chúng tôi yêu cầu tất cả các đối tác
+              của chúng tôi, các chủ sở hữu chỗ ở, cung cấp thông tin một cách
+              đầy đủ, chính xác, chi tiết và trung thực về chỗ ở của mình. Tất
+              cả các hành vi lừa đảo, gian lận, lừa đảo trong quá trình giao
+              dịch sẽ bị lên án và phải chịu hoàn toàn trách nhiệm theo pháp
+              luật. DLONG cung cấp các hình thức thanh toán trực tuyến như
+              sau: Thanh toán trực tuyến qua ATM trong nước và quốc tế. Chuyển
+              khoản qua tài khoản ngân hàng. DLONG sẽ đảm bảo: Thông tin về
+              giá cả do Chủ Nhà đặt ra là toàn vẹn, không bị chỉnh sửa bởi
+              DLONG khi chưa được Chủ Nhà đồng ý hợp lý nhất và dịch vụ tốt
+              nhất. Thông tin về chất lượng và tiêu chuẩn của chỗ ở đúng với mô
+              tả tại thời điểm Chủ Nhà đăng bài trên Website. Trong trường hợp
+              khách hàng của DLONG không thể sử dụng được dịch vụ, chúng tôi
+              sẽ thông tin lại với Chủ Nhà để: Nâng cấp các chỗ ở và cung cấp
+              dịch vụ tốt hơn. Cung cấp gói dịch vụ miễn phí khác (nếu có thể).
+              Gợi ý các địa điểm thay thế mà ở đó chất lượng chỗ ở và dịch vụ
+              ngang bằng có khi tốt hơn (nếu có thể). Trong trường hợp xấu nhất,
+              chúng tôi sẽ xem xét để yêu cầu Chủ Nhà hoàn trả tiền cho quý
+              khách. Các chương trình khuyến mại trên DLONG.com bao gồm các
+              voucher, giảm giá code hoặc các hình thức ưu đãi khác có thể kết
+              thúc trước hạn khi hết ngân sách mà không cần thông báo trước.
+            </p>
+          </div>
+          <div class="wrap-term__content">
+            <h3 class="wrap-term__content-heading">
+              BẢO ĐẢM AN TOÀN GIAO DỊCH
+            </h3>
+            <p class="wrap-term__content-text">
+              Để thực hiện các giao dịch thành công, hạn chế tối đa các rủi ro
+              có thể phát sinh, người sử dụng, các thành viên và khách hàng của
+              DLONG cần phải tuân thủ các cam kết sau đây: Thành viên không
+              nên cung cấp thông tin chi tiết về các khoản thanh toán cho bất kỳ
+              ai bằng e-mail, chúng tôi không chịu trách nhiệm cho bất kỳ tổn
+              thất nào gây ra bởi các thành viên như một kết quả của sự trao đổi
+              thông tin qua internet hoặc e-mail. Cơ chế chúng tôi sử dụng để
+              đảm bảo các giao dịch như sau: Quản lý thành viên: thành viên của
+              DLONG.com phải cung cấp đầy đủ các thông tin có liên quan và
+              chịu trách nhiệm về tính xác thực của những thông tin này. Chúng
+              tôi sẽ ghi lại tất cả các thông tin cá nhân và tình trạng pháp lý
+              của bạn cho mục đích quản lý. Chúng tôi sẽ cập nhật thông tin
+              thường xuyên đồng thời tạo ra những đánh giá dựa trên các thông
+              tin này. Chúng tôi cũng đánh giá chủ nhà qua những lần nhận xét,
+              phản hồi và ý kiến của khách hàng. Chúng tôi sẽ nỗ lực hết sức để
+              giải quyết bất kỳ khiếu nại và tranh chấp có thể phát sinh. Quyền
+              lợi của bạn sẽ được bảo vệ bởi chúng tôi hoặc sự can thiệp của các
+              cơ quan chính quyền địa phương.
+            </p>
+          </div>
+          <div class="wrap-term__content">
+            <h3 class="wrap-term__content-heading">
+              BẢO VỆ THÔNG TIN KHÁCH HÀNG
+            </h3>
+            <p class="wrap-term__content-text">
+              1. Mục đích chính của việc thu thập thông tin khách hàng và phạm
+              vi thực hiện Chúng tôi thu thập thông tin của bạn với mục đích duy
+              nhất là để quản lý tài khoản của bạn, đăng ký tài khoản, quản lý
+              thành viên, liên lạc khi có tranh chấp xảy ra, cung cấp cho các
+              đối tác của chúng tôi thông tin của bạn nếu cần thiết. Chúng tôi
+              cam kết không bán, chia sẻ hoặc trao đổi thông tin cá nhân của
+              bạn. Các loại thông tin mà chúng tôi thu thập là: tên, địa chỉ, số
+              điện thoại, email.</p>
+              <p class="wrap-term__content-text">
+              2. Việc sử dụng thông tin của thành viên Các
+              thông tin của các thành viên DLONG sẽ được sử dụng và chỉ được
+              sử dụng cho mục đích kiểm soát, quản lý hoạt động của các thành
+              viên và tạo thuận lợi cho việc thực hiện giao dịch. </p> 
+              <p class="wrap-term__content-text">
+              3. Thời gian
+              hết hạn của việc lưu trữ thông tin thông tin của các thành viên sẽ
+              được lưu trữ từ 02 cho đến 10 năm. Ngoại trừ những trường hợp
+              thành viên xóa bỏ tài khoản hoặc thông tin cá nhân. </p>
+              <p class="wrap-term__content-text">
+              4. Chỉnh sửa
+              thông tin cá nhân Thành viên và khách hàng có thể chỉnh sửa thông
+              tin cá nhân của mình trong mục tài khoản ở trên trang web. Đối với
+              thành viên là chủ nhà, bạn không thể chỉnh sửa thông tin chỗ ở đã
+              được đăng trên Website của bạn. Nếu bạn muốn thay đổi bất cứ điều
+              gì liên quan đến bài viết, bạn cần liên hệ với bộ phận dịch vụ
+              khách hàng của DLONG để được thay đổi. </p>
+              <p class="wrap-term__content-text">
+              5. Cam kết bảo mật thông
+              tin khách hàng Chúng tôi cam kết thông tin của bạn sẽ được bảo mật
+              tuyệt đối, theo chính sách bảo mật thông tin của DLONG. Việc thu
+              thập và sử dụng thông tin cho mỗi thành viên chỉ được thực hiện
+              khi có sự đồng ý của các thành viên đó, trừ trường hợp bị quy định
+              bởi pháp luật. Thành viên có quyền kiểm tra, cập nhật, điều chỉnh
+              hoặc hủy bỏ thông tin cá nhân của mình theo đúng quy trình của
+              chúng tôi. Chúng tôi sẽ không tiết lộ thông tin cá nhân của bạn
+              cho bất kỳ bên thứ ba nào hoặc sử dụng thông tin đó bên ngoài
+              trang web, ngoại trừ những trường hợp sau đây: Việc cung cấp thông
+              tin cá nhân cho các bên thứ ba có sự đồng ý của thành viên. Bên
+              thứ ba là những bên được thuê bởi DLONG để quản lý máy chủ, phát
+              triển website và hỗ trợ quá trình thanh toán. Trong trường hợp
+              này, hợp đồng giữa DLONG và các bên thứ ba đó phải xác định rõ
+              trách nhiệm của mỗi bên trong việc bảo vệ thông tin người dùng,
+              không chia sẻ thông tin đó với bất cứ ai và chỉ bên thứ ba sử dụng
+              thông tin của các thành viên để thực hiện nhiệm vụ của mình. Nếu
+              hệ thống của chúng tôi xảy ra lỗi và làm mất thông tin cá nhân của
+              các thành viên, chúng tôi sẽ triển khai sửa chữa và các bên thứ ba
+              của chúng tôi sẽ thông báo cho các cơ quan chính phủ có thẩm quyền
+              trong vòng 24 giờ sau khi vấn đề được phát hiện ra. Theo yêu cầu
+              của các cơ quan chính phủ hợp pháp, tất cả các hành vi cố ý tiết
+              lộ thông tin khách hàng hoặc làm sai thông tin khách hàng đều đáng
+              bị khiển trách và xử lý. Nếu bạn có bất kỳ khiếu nại gì về vấn đề
+              những thông tin của mình được sử dụng không đúng và chính xác,
+              chúng tôi sẽ có cơ chế xác minh nhất định và xử lý phù hợp, hoặc
+              nếu cần thiết, chúng tôi sẽ yêu cầu sự can thiệp của chính phủ.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum1">
+                <ul class="footer__colum1-list">
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <div class="footer__colum1-img">
+                        <img
+                          class="footer__colum1-logo"
+                          src="./assets/images/logo.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </a>
+                    <p class="footer__colum1-subtitle">
+                      Công ty Dương Long hân hạnh đồng hành cùng quý khách.
+                    </p>
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon far fa-envelope"></i
+                      >longlonglong1911@gmail.com</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-phone-alt"></i>0366
+                      369 782</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-map-marker-alt"></i
+                      >Kim Thanh, Hai Duong</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum2">
+                <h4 class="footer__colum-heading">Our Recent Posts</h4>
+                <ul class="footer__colum2-list">
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum3">
+                <h4 class="footer__colum-heading">
+                  Subscribe to our Newsletter
+                </h4>
+                <p class="footer__colum3-text">
+                  Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
+                </p>
+                <div class="footer__form">
+                  <div class="footer-form-include">
+                    <input
+                      type="text"
+                      class="footer-form-name"
+                      placeholder="Name"
+                    />
+                    <i class="footer__form-icon fas fa-user"></i>
+                  </div>
+                  <div class="footer-form-include">
+                    <input
+                      type="email"
+                      class="footer-form-name"
+                      placeholder="Email"
+                    />
+                    <i class="footer__form-icon fas fa-envelope"></i>
+                  </div>
+                  <div class="footer__form-btn">
+                    <a href="" class="form-button">SUBCRIBE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum4">
+                <div class="footer__colum4-header">
+                  <h4 class="footer__colum-heading">Rank & Voting</h4>
+                </div>
+                <span class="footer__voting"
+                  >1<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 60%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >2<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 3%"
+                    aria-valuenow="20"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >3<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 10%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >4<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    role="progressbar"
+                    style="width: 15%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >5<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 30%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="footer__coppyright">
+              <p class="footer__coppyright-text">© 2021 Copyright by Loki</p>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Summer Holiday</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <a href="/" class="header__top-logo-link">
+                <img
+                  src="./assets/images/logo.jpg"
+                  alt=""
+                  class="header__top-logo"
+              /></a>
+            </div>
+
+            <label
+              for="mobile-input"
+              class="header__top-bar header__top-button-link"
+              ><i class="btn-bar fas fa-bars"></i
+            ></label>
+
+            <input
+              type="checkbox"
+              hidden
+              name=""
+              class="nav__mobile-input"
+              id="mobile-input"
+            />
+            <div class="col-8 header__top-nav menu__mobile-top">
+              <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                  <li class="header__navbar-item">
+                    <a href="/index.html" class="header__navbar-link">Home</a>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/infomation.html" class="header__navbar-link"
+                      >About</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/infomation.html"
+                          >Infomation</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/term.html"
+                          >Terms and Service</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/location.html" class="header__navbar-link"
+                      >Destinations</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations List</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Slider</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/location.html"
+                          >Destinations Item</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/address.html" class="header__navbar-link"
+                      >Address</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address company</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Social media</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/address.html"
+                          >Address branch</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link">Blog</a>
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog mansonry</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Blog standard</a>
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="">Post Type</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item">
+                    <a href="/accout.html" class="header__navbar-link"
+                      >Accout</a
+                    >
+                    <ul class="subnav">
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/login.html"
+                          >Log in</a
+                        >
+                      </li>
+                      <li class="subnav-item">
+                        <a class="subnav-item-link" href="/accout.html"
+                          >Registration</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__navbar-item header__navbar-item--EL">
+                    <a href="" class="header__navbar-link">Elements</a>
+                    <ul class="subnav subnavE">
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 1</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Accordions & Toggle</a
+                            >
+                          </li>
+                          <li><a class="subnavE-link" href="">Box Icon</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Images</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Box Large Image</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Buttons</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Call to action</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 2</span>
+                        <ul class="textEG1">
+                          <li><a class="subnavE-link" href="">Counter</a></li>
+                          <li><a class="subnavE-link" href="">Dividers</a></li>
+                          <li>
+                            <a class="subnavE-link" href=""
+                              >Flexible image slider</a
+                            >
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Google map</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Graditon</a></li>
+                          <li><a class="subnavE-link" href="">Instagram</a></li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 3</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Popup Video</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Pricing Box</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Progess Bar</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Proges Cricle</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Rows & Columm</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Social Networks</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="EL1">
+                        <span class="titleEL">Element Group 4</span>
+                        <ul class="textEG1">
+                          <li>
+                            <a class="subnavE-link" href="">Testimonial</a>
+                          </li>
+                          <li><a class="subnavE-link" href="">Timeline</a></li>
+                          <li>
+                            <a class="subnavE-link" href="">Carousel Slider</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Typed Text</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                          <li>
+                            <a class="subnavE-link" href="">Unlimited Charts</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-2">
+              <div class="header__top-button">
+                <a href="" class="header__top-search header__top-button-link">
+                  <i class="fas fa-search"></i
+                ></a>
+                <a href="" class="header__top-cart header__top-button-link">
+                  <i class="fas fa-luggage-cart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrap__accout">
+        <div class="wrap__accout-welcome">
+          <div class="accout-welcome__text">
+            <h3 class="accout-welcome__header">
+              Đăng ký thành viên Dlong - Tích điểm thưởng và nhận ưu đãi!
+            </h3>
+            <p class="accout-welcome__mess">
+              Nhanh chóng, tiện lợi và an toàn. Đăng ký liền tay, rinh ngay
+              quyền lợi
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="section">
+      <div class="container container--sm">
+        <div class="row">
+          <div class="col-md-8 col-xs-12 last-xs first-md">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="media">
+                  <img
+                    src="./assets/images/coins@2x.png"
+                    alt=""
+                    width="65"
+                    height="70"
+                  />
+                  <h3 class="media__title">Tích điểm nhanh chóng</h3>
+                  <p class="media__content">
+                    Tích điểm đối với mỗi lượt đặt chỗ thành công. Quy đổi thành
+                    Lux Credit để du lịch nhiều hơn nữa.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="media">
+                  <img
+                    src="./assets/images/top-sales@2x.png"
+                    alt=""
+                    width="65"
+                    height="70"
+                  />
+                  <h3 class="media__title">Tiện ích thông minh</h3>
+                  <p class="media__content">
+                    Check-in và kiểm tra hóa đơn thanh toán kể cả khi không có
+                    kết nối mạng. Hoàn tiền nhanh gọn. Đổi lịch dễ dàng.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="media">
+                  <img
+                    src="./assets/images/wallet@2x.png"
+                    alt=""
+                    width="65"
+                    height="70"
+                  />
+                  <h3 class="media__title">Thanh toán đơn giản</h3>
+                  <p class="media__content">
+                    Phương thức thanh toán tiện lợi, an toàn. Tích hợp chức năng
+                    lưu thẻ để đặt phòng lần sau.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="media">
+                  <img
+                    src="./assets/images/backpack@2x.png"
+                    alt=""
+                    width="65"
+                    height="70"
+                  />
+                  <h3 class="media__title">Ưu đãi mỗi ngày</h3>
+                  <p class="media__content">
+                    Nhận thông báo ưu đãi từ DLONG khi có kế hoạch du lịch để
+                    lựa chọn và đặt ngay cho mình một chỗ ở phù hợp, tiện nghi
+                    với giá tốt nhất.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accout__form col-md-4 col-xs-12 first-xs">
+            <div class="accout">
+              <form action="" autocomplete="off">
+                <div class="accout-header">
+                  <h3 class="accout__title">Đăng ký thành viên</h3>
+                  <label class="input-group__label bold is-block"
+                    >Địa chỉ email</label
+                  >
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="mail"
+                      placeholder="Email"
+                    />
+                    <i class="accout__input-icon far fa-envelope"></i>
+                  </div>
+                  <label class="input-group__label bold is-block"
+                    >Số điện thoại</label
+                  >
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="number"
+                      placeholder="Số điện thoại"
+                    />
+                    <i class="accout__input-icon fas fa-mobile-alt"></i>
+                  </div>
+                  <label class="input-group__label bold is-block">Tên</label>
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="text"
+                      placeholder="Tên"
+                    />
+                  </div>
+                  <label class="input-group__label bold is-block"
+                    >Họ và tên đệm</label
+                  >
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="text"
+                      placeholder="Tên và họ đệm"
+                    />
+                  </div>
+                  <label class="input-group__label bold is-block"
+                    >Mật khẩu</label
+                  >
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="password"
+                      placeholder="Mật khẩu"
+                    />
+                    <i class="accout__input-icon fas fa-lock"></i>
+                  </div>
+                  <label class="input-group__label bold is-block"
+                    >Xác nhận mật khẩu</label
+                  >
+                  <div class="input-group-icon">
+                    <input
+                      class="accout__input"
+                      type="password"
+                      placeholder="Nhập lại mật khẩu"
+                    />
+                    <i class="accout__input-icon fas fa-lock"></i>
+                  </div>
+                </div>
+                <div class="accout-body">
+                  <button type="submit" class="account__btn">Đăng ký</button>
+                  <div class="center-xs">
+                    Bạn đã có tài khoản DLONG?<span class="text-orange bold"
+                      >Đăng nhập</span
+                    >
+                  </div>
+                  <div class="caption">
+                    Tôi đồng ý với
+                    <a
+                      href="/term.html"
+                      target="_blank"
+                      rel="noopener"
+                      class="caption__link"
+                      >Bảo mật</a
+                    >
+                    và
+                    <a
+                      href="/term.html"
+                      target="_blank"
+                      rel="noopener"
+                      class="caption__link"
+                      >Điều khoản hoạt động</a
+                    >
+                    của DLONG.
+                  </div>
+                  <div class="account__3rd">
+                    <a class="accout__btn-link" href="#">
+                      <div class="accout__btn-login">
+                        <span class="accout__mess"> Đăng nhập với Facebook</span
+                        ><i class="accout__btn-icon fab fa-facebook-square"></i>
+                      </div>
+                    </a>
+                    <a class="accout__btn-link" href="#">
+                      <div class="accout__btn-login">
+                        <span class="accout__mess"> Đăng nhập với Google</span
+                        ><svg
+                          version="1.1"
+                          viewBox="0 0 16 16"
+                          class="is-absolute svg-icon svg-fill"
+                        >
+                          <g fill="none">
+                            <path
+                              pid="0"
+                              fill="#557EBF"
+                              d="M15.85 8.2c0-.55-.05-1.1-.15-1.65H8.15v3.1h4.3c-.2 1-.75 1.85-1.6 2.4v2h2.6c1.5-1.4 2.4-3.45 2.4-5.85z"
+                            ></path>
+                            <path
+                              pid="1"
+                              fill="#36A852"
+                              d="M8.15 16c2.15 0 3.95-.7 5.3-1.95l-2.6-2c-.7.5-1.65.75-2.7.75-2.1 0-3.85-1.4-4.5-3.3H1v2.05C2.35 14.2 5.05 16 8.15 16z"
+                            ></path>
+                            <path
+                              pid="2"
+                              fill="#F9BC15"
+                              d="M3.7 9.5c-.15-.5-.25-1-.25-1.5s.1-1.05.25-1.5V4.4H1C.45 5.5.15 6.7.15 8c0 1.3.3 2.5.85 3.6l2.7-2.1z"
+                            ></path>
+                            <path
+                              pid="3"
+                              fill="#EA4535"
+                              d="M8.15 3.2c1.15 0 2.25.4 3.05 1.2l2.3-2.3C12.15.8 10.3 0 8.15 0 5.05 0 2.35 1.8 1 4.4l2.7 2.1c.6-1.9 2.4-3.3 4.45-3.3z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum1">
+                <ul class="footer__colum1-list">
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <div class="footer__colum1-img">
+                        <img
+                          class="footer__colum1-logo"
+                          src="./assets/images/logo.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </a>
+                    <p class="footer__colum1-subtitle">
+                      Công ty Dương Long hân hạnh đồng hành cùng quý khách.
+                    </p>
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon far fa-envelope"></i
+                      >longlonglong1911@gmail.com</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-phone-alt"></i>0366
+                      369 782</a
+                    >
+                  </li>
+                  <li class="footer__colum1-item">
+                    <a href="" class="colum1-link">
+                      <i class="footer__colum1-icon fas fa-map-marker-alt"></i
+                      >Kim Thanh, Hai Duong</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum2">
+                <h4 class="footer__colum-heading">Our Recent Posts</h4>
+                <ul class="footer__colum2-list">
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                  <li class="footer__colum2-item">
+                    <a href="" class="footer__colum2-link"
+                      >Visit HaLong, NhaTrang and PhuQuoc</a
+                    >
+                    <p class="footer__colum2-date">May 26, 2021</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum3">
+                <h4 class="footer__colum-heading">
+                  Subscribe to our Newsletter
+                </h4>
+                <p class="footer__colum3-text">
+                  Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho
+                </p>
+                <div class="footer__form">
+                  <div class="footer-form-include">
+                    <input
+                      type="text"
+                      class="footer-form-name"
+                      placeholder="Name"
+                    />
+                    <i class="footer__form-icon fas fa-user"></i>
+                  </div>
+                  <div class="footer-form-include">
+                    <input
+                      type="email"
+                      class="footer-form-name"
+                      placeholder="Email"
+                    />
+                    <i class="footer__form-icon fas fa-envelope"></i>
+                  </div>
+                  <div class="footer__form-btn">
+                    <a href="" class="form-button">SUBCRIBE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12">
+              <div class="footer__colum4">
+                <div class="footer__colum4-header">
+                  <h4 class="footer__colum-heading">Rank & Voting</h4>
+                </div>
+                <span class="footer__voting"
+                  >5<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 60%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >4<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 3%"
+                    aria-valuenow="20"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >3<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 10%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >2<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    role="progressbar"
+                    style="width: 15%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span class="footer__voting"
+                  >1<i class="footer__vote-star fas fa-star"></i
+                ></span>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 30%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="footer__coppyright">
+              <p class="footer__coppyright-text">© 2021 Copyright by Loki</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+</html>
